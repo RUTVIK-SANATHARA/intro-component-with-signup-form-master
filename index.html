@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <section>
+      <div class="item-1">
+        <h1>Learn to code by watching others</h1>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+          but understanding how developers think is invaluable.</p>
+      </div>
+    </section>
+
+    <section>
+      <div class="item-2">
+        <h2><span id="text-span">try it free 7 days</span> then $20/mo. thereafter</h2>
+        <form action="#" onsubmit="inpvalid()">
+          <div class="fields">
+            <div class="input-field">
+              <div class="field-1">
+                <input type="text" placeholder="First Name" id="first" class="inputs" id="inp"><br>
+                <p class="alert" id="p1"></p>
+              </div>
+              <div class="field-2">
+                <input type="text" placeholder="Last Name" id="last" class="inputs"><br>
+                <p class="alert" id="p2"></p>
+              </div>
+              <div class="field-3">
+                <input type="text" placeholder="Email Address" id="email" class="inputs"><br>
+                <p class="alert" id="p3"></p>
+              </div>
+              <div class="field-4">
+                <input type="password" placeholder="Password" id="Password" class="inputs"><br>
+                <p class="alert" id="p4"></p>
+              </div>
+            </div>
+
+            <div class="field-footer">
+              <input type="submit" value="Claim your free trial" class="btn" id="submit">
+              <p id="tc"> By clicking the button, you are agreeing to our <span id="p-span"> Terms and Services</span>
+              </p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Rutvik Sanathara</a>.
+    </p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
